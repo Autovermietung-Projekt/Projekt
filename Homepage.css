@@ -1,0 +1,35 @@
+/* Grundgerüst */
+.Header {background-color: #262626; width: 100%; height: 70px}
+.Startbild {background-image: url(../Bilder/AdobeStock_294688686.jpeg);  background-size: 100% 600px; width: 100%; height: 500px; text-align: center; display:tables}
+body {width: 100vw; height:100vh;}
+.UnserUSP {background-color: #262626; color: #99cc00; font-size: 25px; font-weight: 850; text-align: center; width: 100%; height: 50px;padding-top: 30px;}
+.USP {background-color: #262626; font-size: 20px; font-weight: 850; color:black; width: 100%; height: 200px;}
+.UnsereFlotte {background-color: #262626; color: #99cc00; font-size: 25px; font-weight: 850; text-align: center; width: 100%; height: 50px;padding-top: 30px;}
+.Flotte {background-color: #262626; font-size: 20px; font-weight: 850; color:black; width: 100%; height: 400px;}
+.UnsereStandorte {background-color: #e6e6e6; color: #99cc00; font-size: 25px; font-weight: 850; text-align: center; width: 100%; height: 50px; padding-top: 30px;}
+.Karte {background-color: #e6e6e6; width:100%; height:400px; display: flex; justify-content: center; align-items: center;}
+.Footer {background-color:#262626; width:100%; height:50px;}
+
+/* Header Erstellung */
+.Logo {color: #fff; font-size: 25px; font-weight: 900; width:36%; height:70px; float: left; margin-top: 20px; padding-left: 15px;}
+.Mietautos {color: #fff; font-weight: 750; width:10%; height:70px;float: left; margin-top: 26px;}
+.Standorte {color: #fff; font-weight: 750; width:10%; height:70px;float: left; margin-top: 26px;}
+.Kontakt {color: #fff; font-weight: 750; width:30%; height:70px;float: left; margin-top: 26px;}
+.Sprache {color: #fff; width:4%; height:70px;float: left; margin-top: 23px;}
+.Suche {color: #fff; width:4%; height:70px;float: left; margin-top: 23px;}
+.Anmeldung {color: #fff; width:4%; height:70px;float: left;margin-top: 23px;}
+
+/* Filter */
+.Filter {background-color: #fff; font-size: 35px; font-weight: 1200; color: #99cc00; width:900px; height: 300px; float:left; padding-top: 20px; margin: 5% 17% 3% 18%;}
+
+
+/* Flotte */
+.Auto {background-color: #fff; color: black; width:250px; height: 250px; float:left; margin: 4% 2% 2% 8%;}
+.Kategorien {background-color: #fff; color: black; width:250px; height: 250px; float:left; margin: 4% 2% 2% 2%;}
+
+/* Footer Erstellung */
+.Impressum {color: #fff; width:4,33%; height:70px;float: left; margin: 15px 20px 15px 500px;}
+.Space {font-size: 20px; width: 5px ; height:70px;float: left; margin: 12px}
+.AGB {color: #fff; width:4,33%; height:70px;float: left; margin: 15px 20px 15px 20px;}
+.Datenschutz {color: #fff; width:4,33%; height:70px;float: left; margin: 15px 20px 15px 20px;}
+.Kontaktunten {color: #fff; width:4,33%; height:70px;float: left; margin: 15px 20px 15px 20px;}
