@@ -1,16 +1,74 @@
 /* Grundgerüst */
-.Header {background-color: #262626; width: 100%; height: 70px}
-.Startbild {background-image: url(../Bilder/AdobeStock_294688686.jpeg);  background-size: 100% 600px; width: 100%; height: 500px; text-align: center; display:tables}
+*{
+    font-family: 'Oswald', sans-serif; 
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 15px; color: #fff
+}
+a.underline:link {color:#fff;text-decoration:none;}
+a.underline:visited {color:#99cc00;text-decoration:none;}
+a.underline:hover {text-decoration:underline;}
+
 body {width: 100vw; height:100vh;}
-.UnserUSP {background-color: #262626; color: #99cc00; font-size: 25px; font-weight: 850; text-align: center; width: 100%; height: 50px;padding-top: 30px;}
-.USP {background-color: #262626; font-size: 20px; font-weight: 850; color:black; width: 100%; height: 200px;}
-.UnsereFlotte {background-color: #262626; color: #99cc00; font-size: 25px; font-weight: 850; text-align: center; width: 100%; height: 50px;padding-top: 30px;}
-.Flotte {background-color: #262626; font-size: 20px; font-weight: 850; color:black; width: 100%; height: 400px;}
-.UnsereStandorte {background-color: #e6e6e6; color: #99cc00; font-size: 25px; font-weight: 850; text-align: center; width: 100%; height: 50px; padding-top: 30px;}
-.Karte {background-color: #e6e6e6; width:100%; height:400px; display: flex; justify-content: center; align-items: center;}
-.Footer {background-color:#262626; width:100%; height:50px;}
+
+
+
+.Startbild {
+    background-image: url(../Bilder/AdobeStock_294688686.jpeg);  
+    background-size: 100%; 
+    height: 500px; 
+    text-align: center; 
+    }
+
+
+.ContentTopics {
+    background-color: #262626; 
+    color: #99cc00; 
+    font-size: 25px; 
+    font-weight: 850; 
+    text-align: center;  
+    height: 50px;
+    padding-top: 30px;
+}
+
+#UnsereStandorte {
+    background-color: #e6e6e6; 
+}
+
+
+.USP {
+    background-color: #262626; 
+    font-size: 20px; 
+    font-weight: 850; 
+    color:black; 
+    height: 200px;
+}
+
+.Flotte {
+    background-color: #262626; 
+    font-size: 20px; 
+    font-weight: 850; 
+    color:black; 
+    height: 400px;}
+
+
+.Karte {
+    background-color: #e6e6e6; 
+    height:400px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.Footer {
+    background-color:#262626; 
+    height:50px;
+}
 
 /* Header Erstellung */
+.Header {
+    background-color: #262626; 
+    height: 70px
+}
 .Logo {color: #fff; font-size: 25px; font-weight: 900; width:36%; height:70px; float: left; margin-top: 20px; padding-left: 15px;}
 .Mietautos {color: #fff; font-weight: 750; width:10%; height:70px;float: left; margin-top: 26px;}
 .Standorte {color: #fff; font-weight: 750; width:10%; height:70px;float: left; margin-top: 26px;}
