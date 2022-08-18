@@ -1,71 +1,97 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/HomePage.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Design/Homepage.css">
     <script src="https://kit.fontawesome.com/289849e991.js" crossorigin="anonymous"></script>
-    
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myCar</title>
 </head>
 
 <body>
-    <!-- Navigationsleiste / Header-->
-    <div width="100%" height="1000px">
-        <div class="Header">
-            <div class="Logo">mycar.</div>
-            <div class="HeaderNavigation">
-                <a class="underline" href="../Produktseite">Mietautos</a></div>
-            <div class="HeaderNavigation">
-                <a class="underline" href="../Standorte">Standorte</a></div>
-            <div class="HeaderNavigation" id="Kontakt">
-                <a class="underline" href="../Kontakt">Kontakt</a></div>
-            <div class="HeaderNavigation">
-                <i ></i></div>
-            <div class="HeaderSucheSpracheAnmeldung">
-                <i ></i></div>
-            <div class="HeaderSucheSpracheAnmeldung">
-                <i ></i></div>
+    
+    <!-- Navbar-->
+
+    <div class="navigation ">
+        <div class="content flex" >
+            <a id="logo" href="Homepage.html"><h1 >mycar.</h1></a>
+            <nav>
+                <ul>
+                    <li><a href="Homepage.html">Mietautos</a></li>
+                    <li><a href="Homepage.html">Standorte</a></li>
+                    <li><a href="Homepage.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="sidenavigation">
+                    <li><a  href="Homepage.html"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
+                    <li><a  href="Homepage.html"><i class="fa-solid fa-language fa-xl"></i></a></li>
+                    <li><a  href="Homepage.html"><i class="fa-solid fa-user-large fa-xl"></i></a></li>
+                </ul>
+            </nav>
+
+            </div>
+
         </div>
     </div>
-
-        <!-- Startbild mit Filter-->
-        <div class="Startbild">
-            <div class="Filter">
-                <p>mylife. myride. mycar.</p>
-                <p1>Jetzt dein Wunschauto an einem unserer 14 Standorte mieten</p1>
-            </div>
-        </div>
-
-        <!-- Content Leistungsangebote-->
-        <div class="ContentTopics">Unser USP</div>
-        <div class="USPFlotteContent"></div>
-
-        <div class="ContentTopics" >Unsere Flotte</div>
-        <div class ="USPFlotteContent" id="Flotte">
-            <div class="Auto">Auto</div>
-            <div class="Kategorien">E-Auto 1</div>
-            <div class="Kategorien">Transporter</div>
-            <div class="Kategorien">Cabrio</div>
-        </div>
-
-        <div class="ContentTopics" id="UnsereStandorte">Unsere Standorte</div>
-        <div class="Karte">
-            <img src="Bilder/germany-1423911_960_720.png" style="height:90%;">
-        </div>
-
-        <!--Footer-->
-        <div class="Footer">
-            <div class="ContentFooter">
-                <a class="underline" href="../Impressum.html">Impressum</a></div>
-            <div class="Space">|</div>
-            <div class="ContentFooter" id="ContentFooterMiddle">
-                <a class="underline" href="../AGB.html">AGB</a></div>
-            <div class="Space">|</div>
-            <div class="ContentFooter" id="ContentFooterMiddle">
-                <a class="underline" href="../Datenschutz.html">Datenschutz</a></div>
-            <div class="Space">|</div>
-            <div class="ContentFooter" id="ContentFooterMiddle">
-                <a class="underline" href="../Kontakt.html">Kontakt</a></div>
-        </div>
     
-</body>
+    
+    <!-- Starting Image + Filter-->
+    <section class="startingimage">
+        <div class="content">
+            <div class="slogan-card">
+                <h1>my life. &nbsp;   my ride. &nbsp; mycar.</h1>
+                <h2>Jetzt dein Wunschauto an einem unserer 14 Standorte buchen.</h2>
+                    <div class="filter">
+                        <h3>Ich bin ein Filter</h3>
+                    </div>
+            </div>
+        </div>   
 
+    </section>
+
+
+    <!-- USP-->
+    <section class="usp">
+        <h2> Unser USP</h2>
+    </section>
+
+
+    <!-- Our Fleet-->
+    <section class="ourfleet">
+        <h2> Unsere Flotte</h2>
+        <div class="content grid">                
+                <div class="cartype"></div>
+                <div class="cartype"></div>
+                <div class="cartype"></div>
+                <div class="cartype"></div>
+        </div>
+    </section>
+
+
+    <!-- Our Locations-->
+    <section class="locations">
+        <h2> Unsere Standorte</h2>
+        <div class="maplocation" >
+            <img class="map" src="Bilder/Deutschlandkarte.png">
+        </div>
+    </section>
+
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="content gridfooter ">
+            <div class="footercontent"><a href="">Impressum</a></div>
+            <div class="footercontent"><a href="">|</a></div>
+            <div class="footercontent"><a href="">AGB</a></div>
+            <div class="footercontent"><a href="">|</a></div>
+            <div class="footercontent"><a href="">Datenschutz</a></div>
+            <div class="footercontent"><a href="">|</a></div>
+            <div class="footercontent"><a href="">Kontakt</a></div>
+           
+        </div>
+    </footer>
+</body>
 </html>
