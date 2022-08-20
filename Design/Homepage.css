@@ -221,6 +221,16 @@ img {
     top: 20px; 
 }
 
+/* 4 USPs */
+
+.ourusp {
+    background-color: #fff;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 850; 
+    position: relative;
+    float: left
+}
 
 /* Unsere Standorte */
 
