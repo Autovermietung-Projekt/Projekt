@@ -1,11 +1,11 @@
 
 
-.Überschrift {width="100%" height="400px"; color:black; font-size:20px; font-weight:600;text-align: center;}
+.Überschrift {width="100%" height="400px"; color: black; font-size:20px; font-weight:600;text-align: center;}
 
 
 
 .Städte { margin-top: 60px; margin-left: 50px; margin-right: 50px;height:200px; 
-    color: white; font-size: 55px; font-weight: 900; text-align: center; padding-top: 60px;}
+    color: white; font-size: 55px; font-weight: 900; text-shadow: 2px 2px black; text-align: center; padding-top: 60px;}
 
 
     .Hamburg {background-image: url(../Bilder/Hamburg.jpeg); background-size: 100%; height: 300px; text-align: center; margin: 70px 70px;
@@ -52,4 +52,3 @@
                     
                 
 
-    
