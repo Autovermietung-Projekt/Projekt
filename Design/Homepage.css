@@ -29,6 +29,7 @@ p{
     color: #fff;
     text-decoration: none;
     font-weight: lighter;
+    font-size: 15px;
 }
 
 h1,h2 {
@@ -246,12 +247,11 @@ img {
 .ourusp {
     width: 500px;
     height: 80px;
-    background-color: #fff;
     color: #fff;
     font-size: 25px;
     font-weight: 850; 
     float: left;
-    margin: 80px 40px 20px 190px;
+    margin: 80px 10px 20px 240px;
 }
 
 /* Unsere Standorte */
@@ -276,7 +276,6 @@ img {
     position: absolute;
     top:50px;
     margin: 5vh 40vw;
-
  
 }
 
