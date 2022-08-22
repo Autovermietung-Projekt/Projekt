@@ -323,8 +323,7 @@ img {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 350px;
-    
+    width: 350px;  
 }
 
 
@@ -332,7 +331,5 @@ img {
     
     float: left;
     color: #fff;
-    margin-right: 13px;
-  
-    
+    margin-right: 13px;  
 }
