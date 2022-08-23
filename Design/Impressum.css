@@ -154,6 +154,14 @@ img {
 }
 
 
+/* Impressum */
+
+.Impressum{
+    width: 600px;
+    height: 80px;
+    float: left;
+    background-color: #fff;
+}
 
 /* FOOTER */
 
