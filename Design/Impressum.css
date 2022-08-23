@@ -26,10 +26,11 @@ a {
 
 
 p{
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-weight: lighter;
     font-size: 15px;
+    margin-top: 10px 0; 
 }
 
 h1,h2 {
@@ -51,9 +52,6 @@ br {
     margin-top: 10px; /* new height */
 }
 
-p {
-    margin-top: 10px 0; 
-}
 
 img {
     width: 100%;
@@ -128,6 +126,21 @@ img {
 }
 
 
+/* Impressum */
+
+.Impressum {
+    width: 85%;
+    height: 250px;
+    background-color: #fff;
+    float: left;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 45px;
+    padding-left: 30px;
+    color:black;
+    margin: 50px 40px 0px 100px;
+}
 
 /* ÜberFooter */
 
@@ -154,14 +167,6 @@ img {
 }
 
 
-/* Impressum */
-
-.Impressum{
-    width: 600px;
-    height: 80px;
-    float: left;
-    background-color: #fff;
-}
 
 /* FOOTER */
 
