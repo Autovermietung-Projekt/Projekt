@@ -118,14 +118,66 @@ img {
 }
 
 
+
 .sidenavigation a {
     font-size: smaller;
     font-weight: 100;
+    margin: auto;
 }
 
 .sidenavigation a:hover{
     border-bottom: 0;
 }
+
+.sidenavigation button {
+  
+    cursor: pointer; 
+    border: none;
+    color: inherit;
+    background: none;
+    margin: 13px;
+    display: inline-block;
+
+
+    
+   
+}
+
+
+
+/* Sidebar Dropdown content versteckt */
+.sidenavigationdropdown {
+    visibility: hidden;
+    position: absolute;
+    background-color: #f1f1f1;
+    top: 70px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 200;
+    opacity: 0;
+    transition: visibility 2s, opacity 1s linear;
+  }
+  
+  /* Links im Sidebar Dropdown */
+  .sidenavigationdropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+ 
+ /* Farbwechsel bei Mausbewegung über Dropdowninhalte */
+ .sidenavigationdropdown a:hover {background-color: #ddd;}
+
+/* Zeigt Sidebar Dropdown */
+button:hover  .sidenavigationdropdown{
+    visibility: visible;
+    opacity: 1;    
+}
+
+
+
+
 
 
 
@@ -290,15 +342,36 @@ img {
     width: 100%;
     height: 220px;
     background-color: rgb(76, 74, 74);
+    align-items: center;
+    
+
+    
+
+    
 }
 
 .überfootercontent {
     width: 30%;
-    height: 150px;
+    height: 170px;
     float: left;
-    color: #000;
-    margin: 24px;
-    padding: 5px 10px 20px 100px;
+    color: #fff;
+    margin: 20px ;
+    
+    
+    
+    
+}
+
+.überfootercontent a {
+    color: #fff;
+}
+
+.überfootercontent h4 {
+    text-decoration: underline;
+}
+
+.Firmenname {
+    font-weight: 560;
 }
 
 .socialmedia {
@@ -306,6 +379,8 @@ img {
     height: 20px;
     float: left;
     margin: 24px;
+    font-size: 30px; 
+    color:#fff;
 }
 
 /* FOOTER */
