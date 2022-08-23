@@ -3,6 +3,9 @@
 .startingimage {
     
     background-image: url(../Bilder/Cabrio.jpeg) !important;
+    
+    height: 400px !important;
+
 }
 
 .MeineBuchungen {
