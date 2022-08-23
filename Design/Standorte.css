@@ -3,14 +3,13 @@
 }
 
 .Überschrift {
-    width: 100%; 
-    height:50px; 
+    
     color: black; 
     font-size:20px; 
     font-weight:600;
     text-align: center; 
     padding-top: 20px;
-    margin-bottom: 60px;
+    
 }
 
 
@@ -20,13 +19,12 @@
     font-size: 55px; 
     font-weight: 900; 
     text-shadow: 2px 2px black; 
-    
+    text-align: center;
+
+    margin: 70px 0px;
     padding-top: 60px;
     height: 300px; 
-    text-align: center;
     border:1px solid black;
-
-    
     
 }
 
@@ -34,14 +32,14 @@
     .Hamburg {
         background-image: url(../Bilder/Hamburg.jpeg); 
         background-size: 100%; 
-        margin: 70px 70px;
+       
        
     }
 
     .Berlin { 
         background-image: url(../Bilder/Berlin.jpeg); 
         background-size: 100%; 
-        margin: 70px 70px;
+        
       
          
        
@@ -50,82 +48,82 @@
     .München {
         background-image: url(../Bilder/München.jpeg);
         background-size: 100%; 
-        margin: 70px 70px;
+        
         
     }
 
     .Köln {
         background-image: url(../Bilder/Köln.jpeg); 
         background-size: 100%; 
-        margin: 70px 70px;
+       
         
     }
 
     .Dortmund { 
         background-image: url(../Bilder/Dortmund.jpeg);  
         background-size: 100%; 
-        margin: 70px 70px;
+       
         
     }
 
     .Leipzig {background-image: url(../Bilder/Leipzig.jpeg);
         background-size: 100%; 
-         margin: 70px 70px;
+        
         
     }
 
     .Bremen {background-image: url(../Bilder/Bremen.jpeg); 
         background-size: 100%; 
-         margin: 70px 70px;
+        
         
     }   
 
     .Bielefeld {
         background-image: url(../Bilder/Bielefeld.jpeg); 
         background-size: 100%; 
-         margin: 70px 70px;
+        
         
     }
 
     .Freiburg {
         background-image: url(../Bilder/Freiburg.jpeg); 
         background-size: 100%; 
-         margin: 70px 70px;
+        
         
     }
 
     .Paderborn {
         background-image: url(../Bilder/Paderborn.jpeg); 
         background-size: 100%; 
-         margin: 70px 70px;
+        
         
     }
     
     .Rostock {
         background-image: url(../Bilder/Rostock.jpeg); 
         background-size: 100%; 
-         margin: 70px 70px;       
+               
         
     }
 
     .Dresden {
         background-image: url(../Bilder/Dresden.jpeg); 
         background-size: 100%; 
-         margin: 70px 70px;
+        
         
     }
 
     .Nürnberg {
         background-image: url(../Bilder/Nürnberg.jpeg); 
         background-size: 100%; 
-         margin: 70px 70px;
+        
         
     }
 
     .Bochum {
         background-image: url(../Bilder/Bochum.jpeg); 
         background-size: 100%; 
-         margin: 70px 70px;
+        
         
     }
                     
