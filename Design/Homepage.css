@@ -398,8 +398,7 @@ button:hover  .sidenavigationdropdown{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: 350px;
-    
+    width: 350px;  
 }
 
 
@@ -407,7 +406,5 @@ button:hover  .sidenavigationdropdown{
     
     float: left;
     color: #fff;
-    margin-right: 13px;
-  
-    
+    margin-right: 13px;  
 }
