@@ -125,6 +125,13 @@ img {
     border-bottom: 0;
 }
 
+/* Starting Image */
+
+.startingimage {
+    background-image: url(../Bilder/Überuns.jpg);
+    background-size: 100%;
+    height: 300px;
+}
 
 /* Kontakt */
 
@@ -215,5 +222,5 @@ img {
     
     float: left;
     color: #fff;
-    margin-right: 13px;  
+    margin-right: 20px;  
 }
