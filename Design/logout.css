@@ -1,0 +1,44 @@
+.logout_bereich {
+
+        background-color: darkgrey;
+        height: 600px;
+        position: relative;
+}
+
+
+
+.background_image {
+  height: 500px;
+  background-size: 100%;
+  background-image: url(../Bilder/DrivingCar.jpeg);
+  width: 1400px;
+  margin:50px;
+  position: absolute;
+  overflow: visible;
+}
+
+.login_feld {
+  height: 300px;
+  width: 750px;
+  background-color: white;
+  box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top:75px;
+  left:370px;
+}
+
+.background_image h2 {
+    color: #99cc00;
+    font-size: 25px;
+    font-weight: 850;
+    top: 20px;
+}
+
+.background_image h3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 850;
+    top: 75px;
+}
