@@ -133,12 +133,16 @@ img {
 
     width:100%; height:1200px;
      background-color: #383737; 
-     color: #99cc00; font-size: 25px; 
-     font-weight: 850;
-     padding-top: 40px;
-     text-align: center;
+     
      margin: auto;
 
+}
+
+.Topic {
+    color: #99cc00; font-size: 25px; 
+    font-weight: 850;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .AGB {
