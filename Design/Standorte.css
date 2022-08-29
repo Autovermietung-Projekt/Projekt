@@ -27,7 +27,12 @@
     padding-top: 60px;
     height: 300px; 
     border:1px solid black;
+    transition: 0.5s;
     
+}
+
+.Städte:hover {
+    font-size: 70px;
 }
 
 
