@@ -331,13 +331,20 @@ button:hover  .sidenavigationdropdown{
     position: absolute;
     top:50px;
     margin: 5vh 40vw;
- 
 }
 
 .map {
     height:400px; 
     width: auto;
+    transition: 1s;
 }
+
+.map:hover {
+    height: 430px;
+    width: auto;
+}
+
+
 
 /* ÜberFooter */
 
