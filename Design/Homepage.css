@@ -1,11 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 
+
+
+:root{
+    --main-color:#262626 ;
+    --second-color:#99cc00;
+    --text-color:white;
+    --gradient: linear-gradient(#262626, #99cc00 );
+}
+
+/* Scrollbar */
+html::-webkit-scrollbar {
+    width:0.5rem;
+
+}
+html::-webkit-scrollbar-track {
+    background: transparent
+}
+html::-webkit-scrollbar-thumb {
+    background: var(--second-color);
+    border-radius: 5rem;
+}
+
+
+
+
+
+
 /* essentials */
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none; 
 }
 
 body {
@@ -15,14 +47,12 @@ body {
     line-height: 1.6;
 }
 
-ul {
-    list-style-type: none;
-}
+
 
 a {
     text-decoration: none;
     color:  #000;
-}
+}   
 
 
 p{
@@ -36,6 +66,7 @@ h1,h2 {
     font-weight: 800;
     line-height: 1.2;
     margin-top: 10px 0;
+    color: white;
 }
 
 h4 {
@@ -76,109 +107,122 @@ img {
 }
 
 
-
 /* Navigationsleiste */
 
-.navigation {
-    background-color: #262626;
-    color: white;
+
+header{
+    
+    position: fixed;
+    width: 100%;
     height: 70px;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--main-color);
+    padding: 15px 100px;
+    
+}
+
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar li {
     position: relative;
-    
-}
+    }
 
-.navigation .flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:10%;
-    overflow: visible;
-}
-
-#logo:hover{
-    border-bottom: 0;
-    
-}
-
-.navigation ul {
-        display: flex;
-}
-
-.navigation a {
-    color: white;
-    padding: 10px;
-    margin: 0 5px;
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
     font-weight: 600;
 }
 
-.navigation a:hover {
-    border-bottom: 2px solid white;
-    
-}::after{
-    border: 0;
+
+
+.navbar a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: var(--gradient);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+/* Dropdown Navbar */
+
+.fa-solid {
+    color: white;
+}
+
+.side-navbar-btn .fa-solid:hover {
+    color: var(--second-color);
 }
 
 
-.sidenavigation {
-    position: relative;
+.side-navbar-btn {
     text-align: right;
+    
 }
-.sidenavigation a {
+
+.side-nav-dropdown a {
     font-size: smaller;
     font-weight: 100;
-    margin: auto;
+    
 }
 
-.sidenavigation a:hover{
+.side-navbar-btn  a:hover{
     border-bottom: 0;
 }
 
-.sidenavigation button {
-  
-    cursor: pointer; 
-    border: none;
-    color: inherit;
-    background: none;
-    margin: 13px;
-    display: inline-block;
 
+/* Dropdown Navbar versteckt */
 
-    
-   
-}
-
-
-
-/* Sidebar Dropdown content versteckt */
-.sidenavigationdropdown {
+.side-nav-dropdown {
     visibility: hidden;
     position: absolute;
     background-color: #f1f1f1;
-    top: 70px;
-    min-width: 160px;
+    top:70px;
+    
+    height:fit-content;
+    width: fit-content;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 200;
     opacity: 0;
     transition: visibility 2s, opacity 0.5s linear;
     right: 0;
-  }
-  
-  /* Links im Sidebar Dropdown */
-  .sidenavigationdropdown a {
+}
+/* Content Dropdown Navbar */
+.side-nav-dropdown a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    margin: auto;
+    text-align: left;
+    font-weight: 500;
+
+   
   }
  
- /* Farbwechsel bei Mausbewegung über Dropdowninhalte */
- .sidenavigationdropdown a:hover {background-color: #ddd;}
+ /* Farbwechsel bei Mausbewegung über Dropdown content */
+ .side-navbar-btn .side-nav-dropdown a:hover {background-color: #ddd;}
 
 /* Zeigt Sidebar Dropdown */
-button:hover  .sidenavigationdropdown{
-    visibility: visible;
-    opacity: 1; 
-}
-
+    div:hover  .side-nav-dropdown{
+        visibility: visible;
+        opacity: 1; 
+    }
 
 
 
@@ -194,6 +238,7 @@ button:hover  .sidenavigationdropdown{
     color: #fff;
     position: relative;
     overflow: visible;
+    
 }
 
 .startingimage h1 {
@@ -219,29 +264,91 @@ button:hover  .sidenavigationdropdown{
     height: 300px;
     width: 750px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
     padding: 10px;
     text-align: center;
-    position: relative;
-    margin: 12vh auto;
-    
-
-
+    position: absolute;  
+    bottom: 4rem;
+    left: 25rem;
+    align-items: center;
 }
 
 .filter {
     height: 150px;
-    width: 400px;
+    width: 450px;
     align-content: center;
-    background-color: lightgray;
     z-index: 1;
-    margin:  auto;
     position: relative;
-    top: 15px;
     
+    top: 15px;
+}
+
+.filter form{
+    display: flex;
+    
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 0px;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+
+
+
+
+.input-box {
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box span {
+    font-weight: 500;
+}
+
+.input-box input {
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: whitesmoke;
+    border-radius: 0.5rem;
+    font-size: 1rem ;
 
 }
+
+/* Button für die Buchung des Fahrzeuges*/
+.submit {
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.submitbutton {
+ 
+    background-color: var(--second-color);
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    margin:  ;
+    cursor: pointer;
+    font-size: 1rem;
+    
+    height: 40px;
+    width: 150px;
+    overflow: visible;
+    padding: 2px 24px;
+    text-align: center;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    will-change: transform,opacity;  z-index: 0;
+  }
+  
+  .submitbutton:hover {
+    background: #a7dd03;
+    
+  }
+
 
 
 /* Unsere Flotte*/
@@ -257,7 +364,7 @@ button:hover  .sidenavigationdropdown{
 }
 
 .ourfleet {
-    background-color:#99cc00;  
+    background-color: var(--text-color);  
     color:black; 
     height: 500px;
    
@@ -278,7 +385,7 @@ button:hover  .sidenavigationdropdown{
     
     height: 250px;
     width: 250px;
-    border: 1px solid white;
+    border: 1px solid var(--main-color);
     transition: 0.5s;
    
 }

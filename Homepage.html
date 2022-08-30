@@ -12,48 +12,62 @@
 
 <body>
     
+     <!-- Navbar-->
+
+     <header>
+      
+        <a href="#" class="logo"><h1>mycar.</h1></a>
+
+        <ul class="navbar">
+            <li><a href="mietwagen_uebersicht.html">Mietautos</a></li>
+            <li><a href="Standorte.html">Standorte</a></li>
+            <li><a href="Kontakt.html">Über uns</a></li>
+        </ul>
+        <div class="side-navbar-btn">
+            <a href=""><i class="fa-solid fa-user-large fa-xl"></i></a>
+            <div class="side-nav-dropdown">
+                <a href="MeineBuchungen.html">Meine Buchungen</a>
+                <a href="login-seite.html">Log In</a>
+            </div>
+        </div>    
     
-    <!-- Navbar-->
-
-    <div class="navigation ">
-        <div class="content flex" >
-            <a id="logo" href="Homepage.html"><h1 >mycar.</h1></a>
-            <nav>
-                <ul>
-                    <li><a href="Mietautos.html">Mietautos</a></li>
-                    <li><a href="Standorte.html">Standorte</a></li>
-                    <li><a href="Kontakt.html">Über uns</a></li>
-                </ul>
-            </nav>
-            <nav class="sidenavigation">
-          
-                <button><i class="fa-solid fa-user-large fa-xl"></i>
-                    <div class="sidenavigationdropdown">
-                        <a href="MeineBuchungen.html">Meine Buchungen</a>
-                        <a href="Homepage.html">Log In</a>
-                    </div>
-                </button>
-            </nav>
-
-        </div>
-
-    </div>
+    </header>
     
+
+
     <!-- Starting Image + Filter-->
     <section class="startingimage">
-        <div class="content">
+        
             <div class="slogan-card">
                 <h1>mylife. &nbsp;   myride. &nbsp; mycar.</h1>
                 <h2>Jetzt dein Wunschauto an einem unserer 14 Standorte buchen.</h2>
                     <div class="filter">
-                        <h3>Ich bin ein Filter</h3>
+                        <form action="">
+                            <div class="input-box"> <!-- Input Filter-->
+                                <span> Standort</span>
+                                <input type="search" name="" id="" placeholder="Search Places">
+                            </div>
+                            <div class="input-box">
+                                <span> Von</span>
+                                <input type="date" name="" id="" placeholder="Startdatum">
+                            </div>
+                            <div class="input-box">
+                                <span> Bis</span>
+                                <input type="date" name="" id="" placeholder="Enddatum">
+                            </div>
+                            <div class="submit">
+                            <input type="submit" name="" id="" class="submitbutton">
+                            </div>   
+                        </form>
+                       
                     </div>
-            </div>
-        </div>   
+            
+            </div>   
 
     </section>
 
 
+    
     <!-- USP-->
     <section class="usp">
         <h2> Unser USP</h2>
@@ -141,5 +155,8 @@
            
         </div>
     </footer>
+
+    <!-- Link to JS -->
+    <script src="Homepage.js"></script>
 </body>
 </html>
