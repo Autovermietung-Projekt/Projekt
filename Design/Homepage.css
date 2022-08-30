@@ -213,7 +213,7 @@ button:hover  .sidenavigationdropdown{
     margin: 20 0;
 }
 
-
+/* Filter */
 .slogan-card {
     height: 300px;
     width: 750px;
@@ -245,19 +245,24 @@ button:hover  .sidenavigationdropdown{
 
 /* Unsere Flotte*/
 .grid {
+  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     justify-content: center;
     align-items: center;
     height: 100%;
+    
 }
 
 .ourfleet {
     background-color:#99cc00;  
     color:black; 
     height: 500px;
+   
+
 }
+
 
 .ourfleet h2 {
     color: #262626;
@@ -269,10 +274,12 @@ button:hover  .sidenavigationdropdown{
 }
 
 .cartype {
+    
     height: 250px;
     width: 250px;
     border: 1px solid white;
     transition: 0.5s;
+   
 }
 
 .cartype:hover {

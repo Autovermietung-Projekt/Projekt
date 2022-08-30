@@ -8,6 +8,7 @@
 
 }
 
+/* grauer Hintergrund*/
 .MeineBuchungen {
   
         background-color: #262626;
@@ -15,6 +16,7 @@
         position: relative;
 }
 
+/* "Meine Buchungen" Überschrift*/
 .MeineBuchungen h2 {
     color: #99cc00;
     font-size: 25px; 
@@ -24,6 +26,7 @@
     top: 20px; 
 }
 
+/* Anzeigefeld mit Buchungen */
 .Buchungen{
     height: 450px;
     width: 1200px;
