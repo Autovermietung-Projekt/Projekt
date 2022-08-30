@@ -2,15 +2,15 @@
 
 .login_bereich {
 
-        background-color: darkgrey;
-        height: 600px;
-        position: relative;
+  background-color: #383737;
+  height: 600px;
+  position: relative;
 }
 
-.login_überschrift h2 {
-    color: #99cc00;
-    font-size: 25px;
-    font-weight: 850;
+.login_feld h2 {
+  color: #99cc00;
+  font-size: 25px;
+  font-weight: 850;
 }
 
 .background_image {
@@ -24,13 +24,51 @@
 }
 
 .login_feld {
-  height: 300px;
-  width: 750px;
+  height: 240px;
+  width: 650px;
   background-color: white;
   box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
   padding: 20px;
-  position: absolute;
+  position: relative;
   z-index: 2;
-  top:100px;
-  left:370px;
+  margin:auto;
+  top: 100px;
+  opacity: 0.95;
+}
+
+/* CSS für Forms */
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #383737;
 }

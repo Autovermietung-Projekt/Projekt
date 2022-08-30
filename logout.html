@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="Design/Homepage.css">
-    <link rel="stylesheet" href="Design/login_seite.css">
+    <link rel="stylesheet" href="Design/logout.css">
     <script src="https://kit.fontawesome.com/289849e991.js" crossorigin="anonymous"></script>
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Logout</title>
 </head>
 
 <body>
@@ -42,10 +42,16 @@
 
     <!-- Login Fenster-->
 
-    <section class="login_bereich">
+    <section class="logout_bereich">
           <div class="background_image">
-            <div class="login_feld">
-              <h2>Login</h2>
+            <div class="logout_feld">
+
+              <h2>Abmelden</h2><br><br>
+              <h3>Klicken sie hier um sich abzumelden.</h3><br><br><br>
+
+              <form action="/logout_function.php">
+                <input type="submit" value="Abmelden">
+              </form>
             </div>
           </div>
     </section>
