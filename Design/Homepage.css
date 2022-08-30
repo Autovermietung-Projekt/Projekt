@@ -159,6 +159,7 @@ img {
     z-index: 200;
     opacity: 0;
     transition: visibility 2s, opacity 0.5s linear;
+    right: 0;
   }
   
   /* Links im Sidebar Dropdown */
@@ -175,7 +176,7 @@ img {
 /* Zeigt Sidebar Dropdown */
 button:hover  .sidenavigationdropdown{
     visibility: visible;
-    opacity: 1;    
+    opacity: 1; 
 }
 
 
