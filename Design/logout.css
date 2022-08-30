@@ -1,0 +1,58 @@
+.logout_bereich {
+
+        background-color: #383737;
+        height: 600px;
+        position: relative;
+}
+
+.background_image {
+  height: 500px;
+  background-size: 100%;
+  background-image: url(../Bilder/Abmelden.jpeg);
+  width: 1400px;
+  margin:50px;
+  position: absolute;
+  overflow: visible;
+}
+
+.logout_feld {
+  height: 220px;
+  width: 650px;
+  background-color: white;
+  box-shadow: 0 3px 10px rgba( 0, 0, 0, 0.2);
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  top:150px;
+  margin: auto;
+  opacity: 0,95;
+}
+
+.logout_feld h2 {
+    color: #99cc00;
+    font-size: 25px;
+    font-weight: 850;
+}
+
+.logout_feld h3 {
+    color: black;
+    font-size: 25px;
+    font-weight: 850;
+}
+
+/* Abmelde Bottom */
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #383737;
+}
