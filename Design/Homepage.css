@@ -91,13 +91,7 @@ img {
     width: 100%;
 }
 
-.content {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0, 40px;
-            
-}
+
 
 
 .flex {
@@ -124,6 +118,7 @@ header{
     justify-content: space-between;
     background: var(--main-color);
     padding: 15px 100px;
+    
     
 }
 
@@ -325,6 +320,8 @@ header{
     flex: 1 1 7rem;
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: -10px;
 }
 .submitbutton {
  
@@ -332,7 +329,7 @@ header{
     border-radius: 24px;
     border-style: none;
     box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
-    margin:  ;
+    
     cursor: pointer;
     font-size: 1rem;
     
@@ -382,7 +379,7 @@ header{
     font-size: 25px;
     font-weight: 850; 
     float: left;
-    margin: 80px 10px 20px 240px;
+    margin: 80px 10px 20px 200px;
 }
 
 .uspcontent p{
@@ -394,16 +391,16 @@ header{
 
 
 /* Unsere Flotte*/
-.grid {
-  
+.gridfleet {
+    margin: 0 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 500px;
     
-}
+}   
 
 .ourfleet {
     background-color: var(--text-color);  
@@ -448,6 +445,16 @@ header{
     position: relative;
 }
 
+   
+
+.gridlocations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin: 80px 200px;
+    
+}
+
 .locations h2 {
     color: #99cc00;
     font-size: 25px; 
@@ -457,11 +464,19 @@ header{
     top: 20px; 
 }
 
+.text-locations {
+    width:270px; 
+    height:300px; 
+ 
+    text-align: center; 
+    padding-top: 120px; 
+    float: left;
+    
+           
+}
+
 .maplocation {
-    width: 40%;
-    position: absolute;
-    top:50px;
-    margin: 5vh 40vw;
+    width: 40%; 
 }
 
 .map {
@@ -482,26 +497,27 @@ header{
 .überfooter {
     width: 100%;
     height: 220px;
-    background-color: rgb(76, 74, 74);
+    background-color: rgb(76, 74, 74); 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
     align-items: center;
-    
-
-    
-
-    
+    position: relative;
+    padding-left: 200px;     
 }
 
 .überfootercontent {
-    width: 30%;
+    width: fit-content;
     height: 170px;
     float: left;
     color: #fff;
-    margin: 20px ;
-    align-items: center;
-    
-    
-    
+       
 }
+
+.sm {
+    margin-left: 50px;
+}
+
 
 
 .überfootercontent a {
@@ -510,6 +526,7 @@ header{
 
 .überfootercontent h4 {
     text-decoration: underline;
+    text-align: center;
 
 }
 
@@ -518,20 +535,21 @@ header{
 }
 
 .socialmedia {
-    width: 20px;
+    width: fit-content;
     height: 20px;
     float: left;
-    margin: 24px;
+    margin: 20px;
     font-size: 30px; 
     color:#fff;
 }
 
 /* FOOTER */
 
-.footer {
+footer {
     width: 100%;
     height: 70px;
     background-color: #262626 ;
+    
     
 }
 
@@ -542,7 +560,7 @@ header{
     align-items: center;
     height: 100%;
     width: 360px;  
-    
+    margin: 0 auto;    
 }
 
 
