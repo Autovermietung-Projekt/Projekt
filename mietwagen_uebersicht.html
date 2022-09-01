@@ -48,7 +48,7 @@
 
     <section class="mietwagen_uebersicht">
          <div class="content">
-           <div class="filter">
+           <div class="filter-uebersicht">
              <h2>Meine Reise</h2><br><br>
 
              <form action="/filter_autoauswahl.php">
@@ -61,9 +61,9 @@
                </select>
 
               <label class="pin" for="Standorte"><img src="Bilder/Kalender.jpg"></label>
-              <input type="text" name="Von" placeholder="Von">
-              <input type="text" name="Bis" placeholder="Bis"><br>
-               <input type="submit" value="Suchen"><br>
+              <input  type="text" name="Von" placeholder="Von">
+              <input  type="text" name="Bis" placeholder="Bis"><br>
+               <input  type="submit" value="Suchen"><br>
 
                <!-- Wird später ersetz durch <a href="<?= $_SERVER['PHP_SELF'] ?>">Auswahl zurücksetzen</a> -->
                <a href="/Design/mietwagen_uebersicht">Auswahl zurücksetzen</a><br>
@@ -131,7 +131,7 @@
                   <label for="GPS">GPS</label>
                 </div> -->
 
-                <input type="submit" value="Filtern"><br>
+                <input  type="submit" value="Filtern"><br>
 
                 <a href="/Design/mietwagen_uebersicht">Filter zurücksetzen</a>
 </form>
