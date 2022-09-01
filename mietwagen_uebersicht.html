@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Design/Homepage.css">
+    <link rel="stylesheet" href="Design/mietwagen_uebersicht.css">
+    <script src="https://kit.fontawesome.com/289849e991.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mietawagen Übersicht</title>
+</head>
+
+<body>
+
+    <!-- Navbar-->
+
+    <div class="navigation ">
+        <div class="content flex" >
+            <a id="logo" href="Homepage.html"><h1 >mycar.</h1></a>
+            <nav>
+                <ul>
+                    <li><a href="Mietautos.html">Mietautos</a></li>
+                    <li><a href="Standorte.html">Standorte</a></li>
+                    <li><a href="Kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <nav class="sidenavigation">
+                <a  href="Homepage.html"> <i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+                <a  href="Homepage.html"><i class="fa-solid fa-language fa-xl"></i></a>
+                <button><i class="fa-solid fa-user-large fa-xl"></i>
+                    <div class="sidenavigationdropdown">
+                        <a href="MeineBuchungen.html">Meine Buchungen</a>
+                        <a href="Homepage.html">Log In</a>
+                    </div>
+                </button>
+            </nav>
+
+        </div>
+
+    </div>
+
+    <!-- Starting Image -->
+    <section class="startingimage">
+    </section>
+
+    <!-- Filter + Mietagen Üersicht-->
+
+    <section class="mietwagen_uebersicht">
+         <div class="content">
+           <div class="filter">
+             <h2>Meine Reise</h2><br><br>
+
+             <form action="/filter_autoauswahl.php">
+
+               <label class="Standorte" for="Standorte"><i class="material-icons">cloud</i></label>
+               <select id="Standorte" name="Standorte">
+                 <option value="Hamburg">Hamburg</option>
+                 <option value="Berlin">Berlin</option>
+                 <option value="Leipzig">Bochum</option>
+               </select>
+
+              <label class="pin" for="Standorte"><img src="Bilder/Kalender.jpg"></label>
+              <input type="text" name="Von" placeholder="Von">
+              <input type="text" name="Bis" placeholder="Bis"><br>
+               <input type="submit" value="Suchen"><br>
+
+               <!-- Wird später ersetz durch <a href="<?= $_SERVER['PHP_SELF'] ?>">Auswahl zurücksetzen</a> -->
+               <a href="/Design/mietwagen_uebersicht">Auswahl zurücksetzen</a><br>
+
+               <label for="Hers">Hersteller</label>
+               <select id="Hers" name="Hersteller">
+                 <option value="Audi">Audi</option>
+                 <option value="BMW">BMW</option>
+                 <option value="Mercedes">Mercedes</option>
+               </select>
+
+               <select id="country" name="country">
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+               </select>
+
+               <select id="country" name="country">
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+               </select>
+
+               <select id="country" name="country">
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+               </select>
+
+               <select id="country" name="country">
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+               </select>
+
+               <select id="country" name="country">
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+               </select>
+
+               <select id="country" name="country">
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+               </select>
+
+               <select id="country" name="country">
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+               </select>
+
+               <select id="country" name="country">
+                 <option value="australia">Australia</option>
+                 <option value="canada">Canada</option>
+                 <option value="usa">USA</option>
+               </select>
+               <!-- <div>
+                 <input type="checkbox" id="Klimaanlage" name="Klimaanlage"checked>
+                 <label for="Klimaanlage">Klimaanlage</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="GPS" name="GPS">
+                  <label for="GPS">GPS</label>
+                </div> -->
+
+                <input type="submit" value="Filtern"><br>
+
+                <a href="/Design/mietwagen_uebersicht">Filter zurücksetzen</a>
+</form>
+           </div>
+          <div class="mietwagen_auswahl"></div>
+        </div>
+    </section>
+
+    <!-- ÜberFooter -->
+
+    <footer class="überfooter">
+        <div class="content">
+            <div class="überfootercontent">
+                <h4>Popular Pages</h4>
+                <p><a href="">Homepage</a></p>
+                <p><a href="">Mietwagen</a></p>
+                <p><a href="">Standorte</a></p>
+            </div>
+            <div class="überfootercontent">
+                <h4>Kontakt</h4>
+                <p class="Firmenname">mycar GmbH Fahrzeugvermietung</p>
+                <br></br>
+                <p>Willy-Brandt-Straße 75</p>
+                <p>20459 Hamburg</p>
+                <p>Tel: 040/822160900</p>
+                <p>Email: mycar@myhsba.de</p>
+            </div>
+            <div class="überfootercontent">
+                <h4>Social Media</h4>
+                    <div class="socialmedia"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="socialmedia"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="socialmedia"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="socialmedia"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+        </div>
+    </footer>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="content gridfooter ">
+            <div class="footercontent"><a href="../Impressum.html">Impressum</a></div>
+            <div class="footercontent"><a href="">|</a></div>
+            <div class="footercontent"><a href="../AGB.html">AGB</a></div>
+            <div class="footercontent"><a href="">|</a></div>
+            <div class="footercontent"><a href="../Datenschutz.html">Datenschutz</a></div>
+            <div class="footercontent"><a href="">|</a></div>
+            <div class="footercontent"><a href="../Kontakt.html">Kontakt</a></div>
+
+        </div>
+    </footer>
+</body>
+</html>
