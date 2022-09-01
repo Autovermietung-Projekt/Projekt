@@ -1,14 +1,33 @@
 .background {
     background-color: #383737;
+    
 }
 
 
 
+
+
+
+.content-Standorte {
+    max-width: 1200px;
+    height: fit-content;
+    margin: 30px auto;
+    overflow: auto;
+    padding: 0, 40px;
+    position: relative;
+    top:70px;
+    margin-bottom: 100px;
+   
+}
+
+button {
+    cursor: pointer;
+}
+
 h2 {
     
-    
-   
-    padding-top: 40px;
+    padding-top: 0px;
+    padding-bottom: 20px ;
     padding-left:20px;
 
     color: #99cc00;
@@ -16,44 +35,40 @@ h2 {
     font-weight: 850; 
     text-align: center;
     position: relative;
-    top: 20px; 
+}
+
+.Stadt {
+    
+    width: 100%; 
+    height: 300px; 
+    border:1px solid black;
+    transition: 0.5s;
+    margin: 20px 0px;
     
 }
 
-
-.content {
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0, 40px;
-    position: relative;
-    top:70px;
-            
-}
-
-.Städte {
+.Stadt h3 {
     color: white; 
     font-size: 55px; 
     font-weight: 900; 
     text-shadow: 2px 2px black; 
     text-align: center;
-
-    margin: 70px 0px;
     padding-top: 90px;
-    height: 300px; 
-    border:1px solid black;
-    transition: 0.5s;
+    
+    
 }
 
 
-.Städte:hover {
-    font-size: 70px;
+.Stadt:hover {
+    scale: 1.1  ;
 }
+
 
 
     .Hamburg {
         background-image: url(../Bilder/Hamburg.jpeg); 
         background-size: 100%; 
+        height: 300px;
        
        
     }
@@ -61,6 +76,7 @@ h2 {
     .Berlin { 
         background-image: url(../Bilder/Berlin.jpeg); 
         background-size: 100%; 
+        height: 300px;
         
       
          
@@ -70,82 +86,84 @@ h2 {
     .München {
         background-image: url(../Bilder/Muenchen.jpeg);
         background-size: 100%; 
-        
+        height: 300px;
         
     }
 
     .Köln {
         background-image: url(../Bilder/Koeln.jpeg); 
         background-size: 100%; 
-       
+        height: 300px;
         
     }
 
     .Dortmund { 
         background-image: url(../Bilder/Dortmund.jpeg);  
         background-size: 100%; 
-       
+        height: 300px;
         
     }
 
-    .Leipzig {background-image: url(../Bilder/Leipzig.jpeg);
+    .Leipzig {
+        background-image: url(../Bilder/Leipzig.jpeg);
         background-size: 100%; 
-        
+        height: 300px;
         
     }
 
-    .Bremen {background-image: url(../Bilder/Bremen.jpeg); 
+    .Bremen {
+        background-image: url(../Bilder/Bremen.jpeg); 
         background-size: 100%; 
-        
+        height: 300px;
         
     }   
 
     .Bielefeld {
         background-image: url(../Bilder/Bielefeld.jpeg); 
         background-size: 100%; 
-        
+        height: 300px;
         
     }
 
     .Freiburg {
         background-image: url(../Bilder/Freiburg.jpeg); 
         background-size: 100%; 
-        
+        height: 300px;
         
     }
 
     .Paderborn {
         background-image: url(../Bilder/Paderborn.jpeg); 
         background-size: 100%; 
-        
+        height: 300px;
         
     }
     
     .Rostock {
         background-image: url(../Bilder/Rostock.jpeg); 
         background-size: 100%; 
-               
+        height: 300px;       
         
     }
 
     .Dresden {
         background-image: url(../Bilder/Dresden.jpeg); 
         background-size: 100%; 
-        
+        height: 300px;
         
     }
 
     .Nürnberg {
         background-image: url(../Bilder/Nuernberg.jpeg); 
         background-size: 100%; 
-        
+        height: 300px;
         
     }
 
     .Bochum {
         background-image: url(../Bilder/Bochum.jpeg); 
         background-size: 100%; 
-        
+        height: 300px;
         
     }
                     
