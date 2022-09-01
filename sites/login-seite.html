@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="Design/Homepage.css">
-    <link rel="stylesheet" href="Design/Fahrzeugdetails.css">
+    <link rel="stylesheet" href="../Design/Homepage.css">
+    <link rel="stylesheet" href="../Design/login_seite.css">
     <script src="https://kit.fontawesome.com/289849e991.js" crossorigin="anonymous"></script>
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fahrzeugdetails</title>
+    <title>Login</title>
 </head>
 
 <body>
-    
+
     <!-- Navbar-->
 
     <div class="navigation ">
@@ -26,7 +26,7 @@
                 </ul>
             </nav>
             <nav class="sidenavigation">
-                <a  href="Homepage.html"> <i class="fa-solid fa-magnifying-glass fa-xl"></i></a>    
+                <a  href="Homepage.html"> <i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
                 <a  href="Homepage.html"><i class="fa-solid fa-language fa-xl"></i></a>
                 <button><i class="fa-solid fa-user-large fa-xl"></i>
                     <div class="sidenavigationdropdown">
@@ -39,38 +39,29 @@
         </div>
 
     </div>
-    
-<!-- Starting Image + Filter-->
-<section class="startingimage">
-         
 
-</section>
+    <!-- Login Fenster-->
 
-    
-   
+    <section class="login_bereich">
+          <div class="background_image">
+            <div class="login_feld">
+              <h2>Login</h2>
+              <form action="/login_function.php">
 
- 
-<!--Fahrzeugdetails-->
-<section class="Fahrzeugdetails">
-    <h2>Fahrzeugdetails</h2>
-    <div class="content griddetails">
-       
-            <div class="details">
-                <div class="cartypeimage"></div>
-                <button class="buttonbuchung">Jetzt buchen!</button>
-                <div class="LoginTo"> Bevor Sie ein Fahrzeug mieten können müssen Sie sich anmelden oder registrieren.</div>
+                <input type="text" name="Benutzername" placeholder="Benutzername">
+
+                <input type="password" name="Passwort" placeholder="Passwort">
+
+                <input type="submit" value="Anmelden">
+
+              </form>
             </div>
-            
-            
-            <div class="details">
-            <div class="spezifikationen">
-                <p> Das hier ist ein Beispieltext laalalallalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-         
-            </div>  
-         </div>
+          </div>
+    </section>
 
-    </div>
-</section>
+
+
+
 
     <!-- ÜberFooter -->
 
@@ -92,7 +83,7 @@
                 <p>Email: mycar@myhsba.de</p>
             </div>
             <div class="überfootercontent">
-                <h4>Social Media</h4>            
+                <h4>Social Media</h4>
                     <div class="socialmedia"><i class="fa-brands fa-facebook"></i></div>
                     <div class="socialmedia"><i class="fa-brands fa-twitter"></i></div>
                     <div class="socialmedia"><i class="fa-brands fa-linkedin"></i></div>
@@ -111,7 +102,7 @@
             <div class="footercontent"><a href="../Datenschutz.html">Datenschutz</a></div>
             <div class="footercontent"><a href="">|</a></div>
             <div class="footercontent"><a href="../Kontakt.html">Kontakt</a></div>
-           
+
         </div>
     </footer>
 </body>
